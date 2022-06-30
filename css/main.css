@@ -1,0 +1,142 @@
+@font-face{
+    font-family: "bebas";
+    src: url(/backsource/Amatic_SC/AmaticSC-Bold.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/backsource/Evening_Houses_Sky_St._Petersburg_Russia_Rivers_582806_3840x2160\ \(1\).png);
+    -webkit-animation: gr 300s ease infinite;
+    -moz-animation: gr 300s ease infinite;
+    animation: gr 300s ease infinite;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+@-webkit-keyframes gr {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gr {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gr {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.text2{
+    color: antiquewhite;
+    font-size: 40px;
+    font-family: "bebas";
+    user-select: none;
+}
+
+.text3{
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: "bebas";
+    user-select: none;
+}
+
+.text{
+    color: antiquewhite;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: "bebas";
+    user-select: none;
+}
+
+.textlink{
+    color: antiquewhite;
+    font-size: 40px;
+    font-family: "bebas";
+    text-decoration: none;
+    animation: 500ms all ease;
+    user-select: none;
+}
+
+.textlink:hover{
+    color: gold;
+}
+
+.text:hover{
+    color: gold;
+}
+
+.texthead{
+    color: antiquewhite;
+    font-size: 70px;
+    font-family: "bebas";
+    letter-spacing: 10px;
+    user-select: none;
+}
+
+.texthead:hover {
+    animation-name:              shake;    
+    animation-duration:          1.5s;
+    animation-iteration-count:   infinite;
+    animation-timing-function:   linear;
+    transform-origin:            50% 100%;
+}
+@keyframes shake {
+    0%  { -webkit-transform:     translate(2px, 1px) rotate(0deg); }
+    10% { -webkit-transform:     translate(-1px, -2px) rotate(-2deg); }
+    20% { -webkit-transform:     translate(-3px, 0px) rotate(3deg); }
+    30% { -webkit-transform:     translate(0px, 2px) rotate(0deg); }
+    40% { -webkit-transform:     translate(1px, -1px) rotate(1deg); }
+    50% { -webkit-transform:     translate(-1px, 2px) rotate(-1deg); }
+    60% { -webkit-transform:     translate(-3px, 1px) rotate(0deg); }
+    70% { -webkit-transform:     translate(2px, 1px) rotate(-2deg); }
+    80% { -webkit-transform:     translate(-1px, -1px) rotate(4deg); }
+    90% { -webkit-transform:     translate(2px, 2px) rotate(0deg); }
+    100%{ -webkit-transform:     translate(1px, -2px) rotate(-1deg); }
+   }
+
+.textlinkright{
+    color: antiquewhite;
+    font-size: 40px;
+    font-family: "bebas";
+    text-decoration: none;
+    animation: 500ms all ease;
+    user-select: none;
+    text-align: right;
+}
+
+.textlinkright:hover{
+    color: gold;
+}
+
+.textlinkleft{
+    color: antiquewhite;
+    font-size: 40px;
+    font-family: "bebas";
+    text-decoration: none;
+    animation: 500ms all ease;
+    user-select: none;
+    text-align: left;
+}
+
+.textlinkleft:hover{
+    color: gold;
+}

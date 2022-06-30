@@ -1,0 +1,53 @@
+.aboutimg{
+    flex: 1;
+    width:300px;
+    height:400px;
+    border-radius: 20px;
+    transition: 500ms all ease;
+}
+
+.aboutimg:hover{
+    transform: scale(1.05);
+}
+
+.aboutinf{
+    flex: 1;
+}
+
+.textlinkleft1{
+    color: antiquewhite;
+    font-size: 40px;
+    font-family: "bebas";
+    text-decoration: none;
+    animation: 500ms all ease;
+    user-select: none;
+    text-align: left;
+}
+
+.contentab{
+    max-width: 1400px;
+    margin: 25px;
+    top: 0;
+    left: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.textheadab{
+    color: antiquewhite;
+    font-size: 70px;
+    font-family: "bebas";
+    letter-spacing: 10px;
+    user-select: none;
+}
+
+.map {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+}

@@ -1,0 +1,30 @@
+.footer{
+    position: relative;    
+    overflow:hidden;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    color: antiquewhite;
+    background-image: url(/backsource/treugolnik_forma_temnyy_figurka_88540_1920x1080\ —\ копия.jpg);
+    -webkit-animation: tr1 200s ease infinite;
+    -moz-animation: tr1 200s ease infinite;
+    animation: tr1 200s ease infinite;
+}
+
+@-webkit-keyframes tr1 {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 20%}
+  }
+  @-moz-keyframes tr1 {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 20%}
+  }
+  @keyframes tr1 {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 20%}
+  }

@@ -1,0 +1,64 @@
+.grid {
+  inline-size: 90%;
+  margin-inline: auto;
+  max-inline-size: 41em;
+}
+
+.sticky {
+  position: sticky;
+  will-change: transform;
+}
+
+.sticky--top {
+  top: 0;
+}
+
+.header {
+  z-index: 1;
+  background-image: url(/backsource/treugolnik_forma_temnyy_figurka_88540_1920x1080.jpg);
+  padding: 10px;
+  -webkit-animation: tr 200s ease infinite;
+  -moz-animation: tr 200s ease infinite;
+  animation: tr 200s ease infinite;
+  min-width: 390px;
+}
+
+@-webkit-keyframes tr {
+  0%{background-position:0% 20%}
+  50%{background-position:100% 20%}
+  100%{background-position:0% 20%}
+}
+@-moz-keyframes tr {
+  0%{background-position:0% 20%}
+  50%{background-position:100% 20%}
+  100%{background-position:0% 20%}
+}
+@keyframes tr {
+  0%{background-position:0% 80%}
+  50%{background-position:100% 80%}
+  100%{background-position:0% 80%}
+}
+
+.navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "bebas";
+}
+
+.navigation__list--inline {
+  display: flex;
+  gap: 1.5em;
+}
+
+.navigation__link {
+  color: inherit;
+  display: block;
+  padding-inline: 1em;
+  text-decoration: none;
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+}
